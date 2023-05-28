@@ -1,0 +1,69 @@
+body{
+    background: #5080FE;
+}
+.card{
+    height: 180px;
+    width: 250px;
+    background-color: #fff;
+    margin-top: 60px;
+    margin-left: 40%;
+    border-radius: 8px;
+}
+#input-box{
+    height: 37px;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #000;
+    font-size: 16px;
+    border-radius: 8px;
+    padding-left: 15px;
+    
+}
+#input-box:focus{
+    color: #0448f5;
+}
+.btn-s{
+    margin-top: 70px;
+    text-align: center;
+    padding: 8px 18px;
+    margin-left: 35%;
+    background: #5080FE;
+    cursor: pointer;
+    border-radius: 8px;
+}
+input::placeholder{
+
+    font-size: 20px;
+    color: #000;
+}
+.weather{
+    height: auto;
+    width: 290px;
+    background-color: #fff;
+    margin-top: 60px;
+    margin-left: 39%;
+    border-radius: 8px;
+}
+.weather .city{
+    height: auto;
+    background: #0448f5;
+    text-align: center;
+}
+.weather .description{
+    font-size: 25px;
+    margin-left: 17px;
+}
+.weather .temp{
+    margin-top: 21px;
+    font-size: 25px;
+    margin-left: 17px;
+}
+.weather .wind{
+    margin-top: 21px;
+    font-size: 25px;
+    margin-left: 17px;
+    margin-bottom: 10px;
+}
+.weather span{
+    color: brown;
+}
